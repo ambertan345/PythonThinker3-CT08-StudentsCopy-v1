@@ -1,0 +1,52 @@
+students = {"Alice": 85, "Bob": 90}
+
+# add
+students["John"] = 100
+print(f"Students Dictionary: {students}")
+
+# change
+students["Alice"] = 10
+print(f"Students Dictionary: {students}")
+
+# delete
+del students["Alice"]
+print(f"Students Dictionary: {students}")
+
+# check
+lst=["Alice", "Bob"]
+if "Alice" in lst:
+    print("Alice is in class")
+elif "Bob" in lst:
+    print("Bob is in class")
+
+# iterating
+# method 1
+for name in students:
+    grade = students[name]
+    print(f"{name} has a score of {grade}")
+
+# method 2
+for (name, grade) in students.items():
+    print(f"{name} has a score of {grade}")
+
+
+menu = {
+    "Cheeseburger": 5.50, 
+    "Double Bacon Burger": 7.90, 
+    "Spicy Chicken Sandwich": 6.20, 
+    "Veggie Delight Burger": 5.00, 
+    "Crispy Fries": 2.80, 
+    "Cheese Fries": 2.80, 
+    "Chcolate Sundae": 3.00, 
+    "Apple Pie": 2.50, 
+    "Milkshake": 4.20, 
+    "Coke": 2.00
+    }
+
+def display_menu(menu):
+    print("Welcome to HanBoaBao")
+    print("Menu")
+    for food, price in menu.items():
+        print(f"{food}: ${price}")
+
+display_menu(menu)
