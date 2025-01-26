@@ -53,6 +53,6 @@ display_menu(menu)
 # name = "Amber"
 # print(f"Hello, {name:20}. Nice to meet you.")
 
-order = input("What do you like to order?")
+order = input("What do you want to buy?")
 if input in menu:
     print(f"{order} has been added to your order")
