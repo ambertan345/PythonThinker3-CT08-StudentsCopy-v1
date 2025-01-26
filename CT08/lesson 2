@@ -72,7 +72,8 @@ def display_order_summary(customer_order):
     order_total = 0
     for food, price in customer_order.items():
         print("{:^30}:${:^30}".format(food, price))
-        
+
+        order_total = order_total + price
 
 customer_order = {"cheeseburger": 5.5, "coke": 2}
 display_order_summary(customer_order)
