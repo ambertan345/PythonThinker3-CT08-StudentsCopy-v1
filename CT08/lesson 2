@@ -97,3 +97,4 @@ def display_order_summary(customer_order):
 customer_order = {"cheeseburger": 5.5, "coke": 2}
 display_order_summary(customer_order)
 
+display_menu(menu)
