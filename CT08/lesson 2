@@ -50,5 +50,5 @@ def display_menu(menu):
         print("{:^30}:${:^8.2f}".format(food, price))
 display_menu(menu)
 
-name = "Amber"
-print(f"Hello, {name:20}. Nice to meet you.")
+# name = "Amber"
+# print(f"Hello, {name:20}. Nice to meet you.")
