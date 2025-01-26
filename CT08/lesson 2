@@ -94,9 +94,11 @@ def display_order_summary(customer_order):
     print("Please pay ${:.2f}. Enjoy your meal!\n".format(order_total))
 
 
-customer_order = {"cheeseburger": 5.5, "coke": 2}
-display_order_summary(customer_order)
+# customer_order = {"cheeseburger": 5.5, "coke": 2}
+# display_order_summary(customer_order)
 
+
+# combine
 display_menu(menu)
 order = input("what would you like to order? (Type no more to end the order)")
 while order != 'no more':
