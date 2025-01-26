@@ -68,7 +68,9 @@ take_order(order, menu, customer_order)
 print(f"the new customer order is {customer_order}")
 
 def display_order_summary(customer_order):
+    # print order summary
     print("{:^10}Order Summary{:^10}".format('*'*10, '*'*10))
+    # print
     order_total = 0
     for food, price in customer_order.items():
         print("{:^30}:${:^30}".format(food, price))
@@ -80,7 +82,7 @@ def display_order_summary(customer_order):
     print("Total: ${:.2f}\n".format(order_total))
 
     print("Please pay ${:.2f}. Enjoy your meal!\n".format(order_total))
-    
+
 
 customer_order = {"cheeseburger": 5.5, "coke": 2}
 display_order_summary(customer_order)
