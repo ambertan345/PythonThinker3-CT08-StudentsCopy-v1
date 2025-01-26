@@ -65,4 +65,4 @@ def take_order(order, menu, customer_order):
 order = "cheeseburger"
 customer_order = []
 take_order(order, menu, customer_order)
-print(f"")
+print(f"the new customer order is {order}")
