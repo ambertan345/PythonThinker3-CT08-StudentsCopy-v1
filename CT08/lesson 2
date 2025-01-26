@@ -45,7 +45,7 @@ menu = {
 
 def display_menu(menu):
     print("{:^10}Welcome to HanBoaBao{:^10}".format('*'*10, '*'*10))
-    print("Menu")
+    print("{:Menu")
     for food, price in menu.items():
         print(f"{food}: ${price}")
 
