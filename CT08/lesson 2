@@ -81,7 +81,7 @@ def display_order_summary(customer_order):
 
         # add the items price to order amount
         order_total = order_total + price
-        #    
+    # decorative barrier    
     print("*" * 40)
 
     print("Total: ${:.2f}\n".format(order_total))
