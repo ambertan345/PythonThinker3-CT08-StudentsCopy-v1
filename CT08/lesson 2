@@ -1,33 +1,33 @@
-students = {"Alice": 85, "Bob": 90}
+# students = {"Alice": 85, "Bob": 90}
 
-# add
-students["John"] = 100
-print(f"Students Dictionary: {students}")
+# # add
+# students["John"] = 100
+# print(f"Students Dictionary: {students}")
 
-# change
-students["Alice"] = 10
-print(f"Students Dictionary: {students}")
+# # change
+# students["Alice"] = 10
+# print(f"Students Dictionary: {students}")
 
-# delete
-del students["Alice"]
-print(f"Students Dictionary: {students}")
+# # delete
+# del students["Alice"]
+# print(f"Students Dictionary: {students}")
 
-# check
-lst=["Alice", "Bob"]
-if "Alice" in lst:
-    print("Alice is in class")
-elif "Bob" in lst:
-    print("Bob is in class")
+# # check
+# lst=["Alice", "Bob"]
+# if "Alice" in lst:
+#     print("Alice is in class")
+# elif "Bob" in lst:
+#     print("Bob is in class")
 
-# iterating
-# method 1
-for name in students:
-    grade = students[name]
-    print(f"{name} has a score of {grade}")
+# # iterating
+# # method 1
+# for name in students:
+#     grade = students[name]
+#     print(f"{name} has a score of {grade}")
 
-# method 2
-for (name, grade) in students.items():
-    print(f"{name} has a score of {grade}")
+# # method 2
+# for (name, grade) in students.items():
+#     print(f"{name} has a score of {grade}")
 
 
 menu = {
@@ -65,10 +65,6 @@ def take_order(order, menu, customer_order):
         print(f"Sorry, we don't have {order}")
     return customer_order
 
-# order = "cheeseburger"
-# customer_order = []
-# take_order(order, menu, customer_order)
-# print(f"the new customer order is {customer_order}")
 
 
 # summary
