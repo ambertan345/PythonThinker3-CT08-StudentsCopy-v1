@@ -56,7 +56,7 @@ display_menu(menu)
 
 
 # get the order
-order = input("What do you want to buy?")
+
 def take_order(order, menu, customer_order):
     if order in menu:
         print(f"{order} has been added to your order")
