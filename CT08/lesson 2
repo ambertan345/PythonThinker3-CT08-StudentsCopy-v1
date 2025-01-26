@@ -75,5 +75,7 @@ def display_order_summary(customer_order):
 
         order_total = order_total + price
 
+    print("")
+
 customer_order = {"cheeseburger": 5.5, "coke": 2}
 display_order_summary(customer_order)
