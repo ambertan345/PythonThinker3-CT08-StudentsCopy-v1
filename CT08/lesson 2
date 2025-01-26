@@ -86,7 +86,7 @@ def display_order_summary(customer_order):
 
     # display total
     print("Total: ${:.2f}\n".format(order_total))
-
+    # display final message
     print("Please pay ${:.2f}. Enjoy your meal!\n".format(order_total))
 
 
