@@ -99,5 +99,5 @@ display_order_summary(customer_order)
 
 display_menu(menu)
 order = input("what would you like to order? (Type no more to end the order)")
-
-take_order(order, menu, customer_order)
+while order != 'no more':
+    take_order(order, menu, customer_order)
