@@ -54,7 +54,7 @@ display_menu(menu)
 # print(f"Hello, {name:20}. Nice to meet you.")
 
 
-
+# 
 order = input("What do you want to buy?")
 def take_order(order, menu, customer_order):
     if order in menu:
@@ -70,7 +70,7 @@ def take_order(order, menu, customer_order):
 # print(f"the new customer order is {customer_order}")
 
 
-
+# summary
 def display_order_summary(customer_order):
     # print order summary
     print("{:^10}Order Summary{:^10}".format('*'*10, '*'*10))
