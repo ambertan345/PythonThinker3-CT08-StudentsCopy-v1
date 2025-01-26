@@ -65,6 +65,10 @@ def take_order(order, menu, customer_order):
         print(f"Sorry, we don't have {order}")
     return customer_order
 
+# order = "cheeseburger"
+# customer_order = []
+# take_order(order, menu, customer_order)
+# print(f"the new customer order is {customer_order}")
 
 
 # summary
@@ -90,6 +94,9 @@ def display_order_summary(customer_order):
     # display final message
     print("Please pay ${:.2f}. Enjoy your meal!\n".format(order_total))
 
+
+# customer_order = {"cheeseburger": 5.5, "coke": 2}
+# display_order_summary(customer_order)
 
 
 # combine
