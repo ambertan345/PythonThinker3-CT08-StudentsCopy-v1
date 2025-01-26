@@ -84,6 +84,7 @@ def display_order_summary(customer_order):
     # decorative barrier    
     print("*" * 40)
 
+    # display total
     print("Total: ${:.2f}\n".format(order_total))
 
     print("Please pay ${:.2f}. Enjoy your meal!\n".format(order_total))
