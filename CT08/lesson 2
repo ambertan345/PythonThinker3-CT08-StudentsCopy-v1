@@ -59,7 +59,7 @@ def take_order(order, menu, customer_order):
         print(f"{order} has been added to your order")
         customer_order[order] = menu[order]
     else:
-        print(f"SOrry, we don't have {order}")
+        print(f"Sorry, we don't have {order}")
     return customer_order
 
 order = "cheeseburger"
@@ -69,7 +69,7 @@ print(f"the new customer order is {customer_order}")
 
 def display_order_summary(customer_order):
     print("{:^10}Order Summary{:^10}".format('-'*10, '-'*10))
-    print()
+    print(f"")
 
 
 customer_order = {"cheeseburger": 5.5, "coke": 2}
