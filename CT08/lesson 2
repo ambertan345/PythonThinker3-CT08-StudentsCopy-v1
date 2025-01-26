@@ -66,3 +66,11 @@ order = "cheeseburger"
 customer_order = []
 take_order(order, menu, customer_order)
 print(f"the new customer order is {customer_order}")
+
+def display_order_summary(customer_order):
+    print(f"")
+    
+
+
+customer_order = {"cheeseburger": 5.5, "coke": 2}
+display_order_summary(customer_order)
