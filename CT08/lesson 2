@@ -50,3 +50,6 @@ def display_menu(menu):
         print(f"{food}: ${price}")
 
 display_menu(menu)
+
+name = "Amber"
+print(f"Hello, {name:20}. Nice to meet you.")
