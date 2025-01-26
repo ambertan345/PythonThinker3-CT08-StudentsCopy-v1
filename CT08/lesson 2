@@ -69,7 +69,7 @@ print(f"the new customer order is {customer_order}")
 
 def display_order_summary(customer_order):
     print("{:^10}Order Summary{:^10}".format('-'*10, '-'*10))
-    print(f"")
+    print(f"{menu[order]}")
 
 
 customer_order = {"cheeseburger": 5.5, "coke": 2}
