@@ -74,8 +74,9 @@ def display_order_summary(customer_order):
     # variable to calculate total order amount
     order_total = 0
 
-    # 
+    # loop the items in customers order
     for food, price in customer_order.items():
+        # display the ordered items
         print("{:^30}:${:^30}".format(food, price))
 
         order_total = order_total + price
