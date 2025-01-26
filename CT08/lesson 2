@@ -68,7 +68,7 @@ take_order(order, menu, customer_order)
 print(f"the new customer order is {customer_order}")
 
 def display_order_summary(customer_order):
-    print(f"")
+    print("Order Summary")
     
 
 
