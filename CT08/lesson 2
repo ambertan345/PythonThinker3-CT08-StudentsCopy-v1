@@ -79,7 +79,7 @@ def display_order_summary(customer_order):
         # display the ordered items
         print("{:^30}:${:^30}".format(food, price))
 
-        # add the
+        # add the items price to order amount
         order_total = order_total + price
 
     print("*" * 40)
