@@ -43,6 +43,7 @@ menu = {
     "Coke": 2.00
     }
 
+# display menu
 def display_menu(menu):
     print("{:^10}Welcome to HanBoaBao{:^10}".format('*'*10, '*'*10))
     print("{:^20}Menu{:^20}".format('-'*10, '-'*10))
@@ -54,7 +55,7 @@ display_menu(menu)
 # print(f"Hello, {name:20}. Nice to meet you.")
 
 
-# 
+# get the order
 order = input("What do you want to buy?")
 def take_order(order, menu, customer_order):
     if order in menu:
