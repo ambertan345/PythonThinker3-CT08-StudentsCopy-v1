@@ -55,4 +55,4 @@ display_menu(menu)
 
 input = ("What would you like to order?")
 if input in menu:
-    print("")
+    print(f"{input}")
