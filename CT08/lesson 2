@@ -98,4 +98,4 @@ customer_order = {"cheeseburger": 5.5, "coke": 2}
 display_order_summary(customer_order)
 
 display_menu(menu)
-order = input("what would you like to order? (SaTypey no more to end the order)")
+order = input("what would you like to order? (Type no more to end the order)")
