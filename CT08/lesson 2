@@ -61,3 +61,6 @@ def take_order(order, menu, customer_order):
     else:
         print(f"SOrry, we don't have {order}")
     return customer_order
+
+order = "cheeseburger"
+customer_order = []
