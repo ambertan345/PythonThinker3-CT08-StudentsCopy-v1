@@ -54,3 +54,5 @@ display_menu(menu)
 # print(f"Hello, {name:20}. Nice to meet you.")
 
 input = ("What would you like to order?")
+if input in menu:
+    print("")
