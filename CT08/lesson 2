@@ -70,7 +70,7 @@ print(f"the new customer order is {customer_order}")
 def display_order_summary(customer_order):
     # print order summary
     print("{:^10}Order Summary{:^10}".format('*'*10, '*'*10))
-    # print
+    # variable to calculate
     order_total = 0
     for food, price in customer_order.items():
         print("{:^30}:${:^30}".format(food, price))
