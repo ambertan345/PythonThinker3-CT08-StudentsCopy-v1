@@ -79,7 +79,7 @@ def display_order_summary(customer_order):
 
     print("Total: ${:.2f}\n".format(order_total))
 
-    print("Please pay ${:.2f}. Enjoy your meal!")
+    print("Please pay ${:.2f}. Enjoy your meal!\n".format)
 
 customer_order = {"cheeseburger": 5.5, "coke": 2}
 display_order_summary(customer_order)
