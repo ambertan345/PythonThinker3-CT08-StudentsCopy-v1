@@ -158,7 +158,8 @@ def take_order(order, quantity, bookshop, customer_order):
         print(f"{quantity} {order} has been added to your order")
         customer_order[order] = bookshop[order]
     else:
-        print(f"Sorry,")
+        print(f"Sorry, we dont have {order}")
+    
 
 
             
