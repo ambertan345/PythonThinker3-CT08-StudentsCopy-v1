@@ -130,4 +130,4 @@ display_menu(menu)
 
 
 
-orders = {"notebook":{"quantity":2, "cost" : 2.5}, "pen":}
+orders = {"notebook":{"quantity":2, "cost" : 2.5}, "pen":{"quantity"}}
