@@ -134,4 +134,4 @@ orders = {"notebook":{"quantity":2, "cost" : 2.5}, "pen":{"quantity":1, "cost":5
 for item, quantity_cost in orders.items():
     quantity = quantity_cost["quantity"]
     cost = quantity_cost["cost"]
-    print(f"The item {item} cost $")
+    print(f"The item {item} cost ${cost}")
