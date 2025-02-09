@@ -130,15 +130,10 @@ display_menu(menu)
 
 
 
+
 orders = {"notebook":{"quantity":2, "cost" : 2.5}, "pen":{"quantity":1, "cost":5}}
 for item, quantity_cost in orders.items():
     quantity = quantity_cost["quantity"]
     cost = quantity_cost["cost"]
     print(f"The item {item} cost ${cost} and you bought {quantity} of them.")
 
-display_menu(menu)
-order = input("what would you like to order? (Type no more to end the order)")
-while order != 'no more':
-    take_order(order, menu, customer_order)
-    order = input("what would you like to order? (Type no more to end the order)")
-display_order_summary(customer_order)
