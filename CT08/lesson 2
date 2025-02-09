@@ -107,7 +107,7 @@ display_order_summary(customer_order)
 
 # display menu
 def display_menu(menu):
-    print("{:^10}Welcome to HanBoaBao{:^10}".format('*'*10, '*'*10))
+    print("{:^10}Welcome to HanBoBookshop{:^10}".format('*'*10, '*'*10))
     print("{:^20}Menu{:^20}".format('-'*10, '-'*10))
     for food, price in menu.items():
         print("{:^30}:${:^8.2f}".format(food, price))
