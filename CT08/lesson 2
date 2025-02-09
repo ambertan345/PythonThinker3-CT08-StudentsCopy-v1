@@ -132,4 +132,4 @@ display_menu(menu)
 
 orders = {"notebook":{"quantity":2, "cost" : 2.5}, "pen":{"quantity":1, "cost":5}}
 for item, quantity_cost in orders.items():
-    
+    quantity = quantity_cost["quantity"]
