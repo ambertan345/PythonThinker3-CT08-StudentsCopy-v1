@@ -160,6 +160,8 @@ def take_order(order, quantity, bookshop, customer_order):
     else:
         print(f"Sorry, we dont have {order}")
     
+def display_order_summary(customer_order):
+    print("{}")
 
 
             
