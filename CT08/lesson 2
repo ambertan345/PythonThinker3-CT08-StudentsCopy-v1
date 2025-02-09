@@ -150,7 +150,8 @@ def display_message(bookshop):
 
     for item, price in bookshop.items():
         print("{}: ${:.2f}".format(item, price))
-        
+
+    print()
 
 
             
