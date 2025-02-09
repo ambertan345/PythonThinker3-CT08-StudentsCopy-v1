@@ -144,7 +144,8 @@ bookshop = {
 ordered = {}
 
 def display_message(bookshop):
-    print("\n")
+    print("\nWelcome to the Bookshop Ordering System (BOS)!")
+    print("here")
 
 
             
