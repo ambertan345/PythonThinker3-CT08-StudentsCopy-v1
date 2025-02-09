@@ -161,7 +161,7 @@ def take_order(order, quantity, bookshop, customer_order):
         print(f"Sorry, we dont have {order}")
     
 def display_order_summary(customer_order):
-    print("{:^15}Order Summary{:^15}".format(''))
+    print("{:^15}Order Summary{:^15}".format('*'*10, '*'))
 
 
             
