@@ -166,7 +166,7 @@ def display_order_summary(customer_order):
     order_total = 0
 
     for food, price in customer_order.items():
-        print("{:30}")
+        print("{:30}:${:^}")
 
 
             
