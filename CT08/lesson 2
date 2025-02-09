@@ -143,6 +143,8 @@ bookshop = {
 
 ordered = {}
 
+def display_message(bookshop):
+    print("")
 
 
             
