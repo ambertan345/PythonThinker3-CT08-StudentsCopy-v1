@@ -136,7 +136,8 @@ bookshop = {
     'pen':1.2,
     'ruler':1.5,
     'eraser':0.5,
-    'marker':2
+    'marker':2,
+    'glue':
 
             }
 orders = {"notebook":{"quantity":2, "cost" : 2.5}, "pen":{"quantity":1, "cost":5}}
