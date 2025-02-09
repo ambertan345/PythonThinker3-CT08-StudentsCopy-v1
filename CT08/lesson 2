@@ -105,6 +105,20 @@ display_order_summary(customer_order)
 
 
 
+menu = {
+    "Notebook": 5.50, 
+    "Double Bacon Burger": 7.90, 
+    "Spicy Chicken Sandwich": 6.20, 
+    "Veggie Delight Burger": 5.00, 
+    "Crispy Fries": 2.80, 
+    "Cheese Fries": 2.80, 
+    "Chcolate Sundae": 3.00, 
+    "Apple Pie": 2.50, 
+    "Milkshake": 4.20, 
+    "Coke": 2.00
+    }
+
+
 # display menu
 def display_menu(menu):
     print("{:^10}Welcome to Bookshop{:^10}".format('*'*10, '*'*10))
