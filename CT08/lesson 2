@@ -104,5 +104,3 @@ while order != 'no more':
 display_order_summary(customer_order)
 
 
-
- 
