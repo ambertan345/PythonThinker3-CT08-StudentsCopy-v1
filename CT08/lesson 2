@@ -145,7 +145,11 @@ ordered = {}
 
 def display_message(bookshop):
     print("\nWelcome to the Bookshop Ordering System (BOS)!")
-    print("here")
+    print("here is the shopping list: ")
+
+
+    for item, price in bookshop.items():
+        print
 
 
             
