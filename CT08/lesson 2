@@ -106,7 +106,7 @@ display_order_summary(customer_order)
 
 
 menu = {
-    "Notebook": 2.50, 
+    "Notebook": 10.00, 
     "Pencil": 1.50, 
     "Backpack": 50.00, 
     "Highlighter": 2.00, 
