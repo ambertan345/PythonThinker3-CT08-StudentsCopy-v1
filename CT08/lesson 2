@@ -139,8 +139,13 @@ bookshop = {
     'marker':2,
     'glue':3,
     'calculator':35
+}
 
-            }
+ordered = {}
+
+
+
+            
 orders = {"notebook":{"quantity":2, "cost" : 2.5}, "pen":{"quantity":1, "cost":5}}
 for item, quantity_cost in orders.items():
     quantity = quantity_cost["quantity"]
