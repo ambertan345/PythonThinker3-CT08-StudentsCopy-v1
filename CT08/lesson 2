@@ -106,8 +106,8 @@ display_order_summary(customer_order)
 
 
 menu = {
-    "Notebook": 5.50, 
-    "Double Bacon Burger": 7.90, 
+    "Notebook": 2.50, 
+    "Pencil": 7.90, 
     "Spicy Chicken Sandwich": 6.20, 
     "Veggie Delight Burger": 5.00, 
     "Crispy Fries": 2.80, 
