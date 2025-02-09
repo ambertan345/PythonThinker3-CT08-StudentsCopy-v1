@@ -130,12 +130,4 @@ display_menu(menu)
 
 
 
-def take_order(order, menu, customer_order):
-    if order in menu:
-        print(f"{order} has been added to your order")
-        customer_order[order] = menu[order]
-    else:
-        print(f"Sorry, we don't have {order}")
-    return customer_order
-
-customer_order = []
+orders = {"notebook"}
