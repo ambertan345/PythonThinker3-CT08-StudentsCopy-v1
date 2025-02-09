@@ -122,7 +122,7 @@ menu = {
 
 # display menu
 def display_menu(menu):
-    print("{:^10}Welcome to Bookshop{:^10}".format('*'*10, '*'*10))
+    print("{:^10}Welcome to Bookshop Ordering System (BOS):^10}".format('*'*10, '*'*10))
     print("{:^20}Here is our menu:{:^20}".format('-'*10, '-'*10))
     for stationary, price in menu.items():
         print("{:^30}:${:^8.2f}".format(stationary, price))
