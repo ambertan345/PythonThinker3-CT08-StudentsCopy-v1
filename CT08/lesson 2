@@ -156,7 +156,7 @@ def display_message(bookshop):
 def take_order(order, quantity, bookshop, customer_order):
     if order in bookshop:
         print(f"{quantity} {order} has been added to your order")
-        customer_order[order]
+        customer_order[order] = bookshop[order]
 
 
             
