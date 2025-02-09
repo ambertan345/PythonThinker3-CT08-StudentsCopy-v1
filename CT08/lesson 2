@@ -108,7 +108,7 @@ display_order_summary(customer_order)
 menu = {
     "Notebook": 2.50, 
     "Pencil": 1.50, 
-    "Spicy Chicken Sandwich": 6.20, 
+    "Backpack": 50.00, 
     "Veggie Delight Burger": 5.00, 
     "Crispy Fries": 2.80, 
     "Cheese Fries": 2.80, 
