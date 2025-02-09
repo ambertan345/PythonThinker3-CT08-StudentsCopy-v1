@@ -151,7 +151,10 @@ def display_message(bookshop):
     for item, price in bookshop.items():
         print("{}: ${:.2f}".format(item, price))
 
-    print("**Promotion** 10% off for total")
+    print("**Promotion** 10% off for total purchase more that $20")
+
+def take_order(order, quantity, bookshop, customer_order):
+    if order in bookshop:
 
 
             
