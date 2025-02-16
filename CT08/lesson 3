@@ -47,4 +47,5 @@ def attendance_percentage(student: str, students: dict) -> float:
 
 # test
 value = attendance_percentage("alice", students)
+print(value)
 
