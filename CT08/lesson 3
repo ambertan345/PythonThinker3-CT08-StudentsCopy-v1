@@ -29,7 +29,7 @@ def take_attendance(students: dict) -> dict:
                 students[student].append(False)
                 break
             else:
-                print
+                print("invalid, only yes / no")
     return {}
 
 # take student attendance
