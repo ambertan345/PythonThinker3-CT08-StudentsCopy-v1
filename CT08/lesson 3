@@ -4,4 +4,6 @@ def greet(name:str) -> None:
 
 greet("Amber")
 
-students = {}
+students = {
+    "john": []
+}
