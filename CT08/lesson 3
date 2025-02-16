@@ -45,7 +45,7 @@ def attendance_percentage(student: str, students: dict) -> float:
     for student, attendance in students.items():
         total_days = len(attendance)
         present_days = sum(attendance)
-        cal_attendance_percentage = (present_days / total_days) * 100
+        attendance_percentage = (present_days / total_days) * 100
 
     return 0.0
 
