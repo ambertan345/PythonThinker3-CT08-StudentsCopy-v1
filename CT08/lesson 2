@@ -168,6 +168,7 @@ def display_order_summary(customer_order):
 
     for food, price in customer_order.items():
         print("{:30}:${:^8.2f}".format(food, price))
+        order
         
 
 
