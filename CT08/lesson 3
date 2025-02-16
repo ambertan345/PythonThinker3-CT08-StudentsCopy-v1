@@ -8,5 +8,6 @@ students = {
     "john": [True, False, True],
     "jane": [True, True, True],
     "bob": [False, False, True],
-    "alice":[True, True, False]
+    "alice":[True, True, False],
+    "sam": [True, ]
 }
