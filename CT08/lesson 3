@@ -14,5 +14,11 @@ students = {
     "tom": [True, False, False],
     "daisy": [True, True, True],
     "mike": [False, False, False],
-    "lily": []
+    "lily": [True, False, True]
 }
+
+def take_attendance(students: dict) ->:
+    return {}
+
+updated_students = take_attendance(students)
+print(updated_students)
