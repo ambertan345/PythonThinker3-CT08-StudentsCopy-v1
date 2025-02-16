@@ -9,5 +9,6 @@ students = {
     "jane": [True, True, True],
     "bob": [False, False, True],
     "alice":[True, True, False],
-    "sam": [True, ]
+    "sam": [True, True, True],
+    "eve": []
 }
