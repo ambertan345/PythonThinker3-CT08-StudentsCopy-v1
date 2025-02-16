@@ -23,7 +23,9 @@ def take_attendance(students: dict) -> dict:
             attendance = input("Is {} present? yes / no".format(student)).lower()
 
             if attendance == "yes":
-                students[student].append
+                students[student].append(True)
+                break
+            
     return {}
 
 # take student attendance
