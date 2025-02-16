@@ -20,5 +20,6 @@ students = {
 def take_attendance(students: dict) -> dict:
     return {}
 
+# take student attendance
 updated_students = take_attendance(students)
 print(updated_students)
