@@ -26,6 +26,7 @@ def take_attendance(students: dict) -> dict:
                 students[student].append(True)
                 break
             elif attendance == "no":
+                students[student].append(False)
     return {}
 
 # take student attendance
