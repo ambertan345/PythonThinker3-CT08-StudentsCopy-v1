@@ -11,5 +11,6 @@ students = {
     "alice":[True, True, False],
     "sam": [True, True, True],
     "eve": [False, True, False],
-    "tom": []
+    "tom": [True, False, False],
+    
 }
