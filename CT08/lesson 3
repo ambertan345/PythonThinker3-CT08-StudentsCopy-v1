@@ -18,6 +18,9 @@ students = {
 }
 
 def take_attendance(students: dict) -> dict:
+    for student, attendance in students.items():
+        while True:
+            atten
     return {}
 
 # take student attendance
