@@ -6,5 +6,6 @@ greet("Amber")
 
 students = {
     "john": [True, False, True],
-    "jane": []
+    "jane": [True, True, True],
+    "bob": []
 }
