@@ -17,7 +17,7 @@ students = {
     "lily": [True, False, True]
 }
 
-def take_attendance(students: dict) ->:
+def take_attendance(students: dict) -> dict:
     return {}
 
 updated_students = take_attendance(students)
