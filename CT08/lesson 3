@@ -44,7 +44,8 @@ def attendance_percentage(student: str, students: dict) -> float:
     # 3. return the percentage of true
     for student, attendance in students.items():
         total_days = len(attendance)
-        present_days = sum()
+        present_days = sum(attendance)
+        p
     return 0.0
 
 # test
