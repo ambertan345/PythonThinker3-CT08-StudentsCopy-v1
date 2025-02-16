@@ -18,6 +18,7 @@ students = {
 }
 
 def take_attendance(students: dict) -> dict:
+    print
     for student, attendance in students.items():
         while True:
             attendance = input("Is {} present? yes / no".format(student)).lower()
