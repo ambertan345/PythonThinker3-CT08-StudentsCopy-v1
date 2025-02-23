@@ -12,4 +12,6 @@ def grade_all_students(student_answers: dict, answer_key: list) -> dict:
 
         for i in range(len(answer-key)):
             if answers[i] == answer_key[i]:
-                score
+                score += 1
+
+        quiz
