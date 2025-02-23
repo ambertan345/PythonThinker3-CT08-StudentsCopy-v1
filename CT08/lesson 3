@@ -79,4 +79,5 @@ while True:
     elif choice == 3:
         notify_low_attendance()
     elif choice == 4:
-        print
+        print("exiting the program.")
+        break
