@@ -72,7 +72,7 @@ print(students_with_low_attendance)
 while True:
     print("Menu")
     print("1. take attendance")
-    
+    print("2. ")
     choice = input("what option do you want? ")
     if choice == 1:
         take_attendance()
