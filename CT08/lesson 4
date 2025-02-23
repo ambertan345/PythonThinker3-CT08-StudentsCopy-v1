@@ -3,5 +3,5 @@ student_answers = {
     "john": ["a", "c", "b", "d"],
     "jane": ["a", "b", "b", "d"],
     "alice": ["a", "c", "c", "d"],
-    "bob": []
+    "bob": ["a", "b", ""]
 }
