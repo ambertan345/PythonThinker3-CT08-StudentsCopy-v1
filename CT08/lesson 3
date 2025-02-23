@@ -74,3 +74,5 @@ while True:
     choice = input("what option do you want? ")
     if choice == 1:
         take_attendance()
+    elif choice == 2:
+        
