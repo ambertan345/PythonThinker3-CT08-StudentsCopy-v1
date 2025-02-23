@@ -69,4 +69,5 @@ print(students_with_low_attendance)
 
 
 
+print("Menu : ")
 print("")
