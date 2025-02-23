@@ -7,5 +7,5 @@ student_answers = {
 }
 
 def grade_all_students(student_answers: dict, answer_key: list) -> dict:
-    for answer in student_answers:
-        answers = student_answers[answer]
+    for student, answers in student_answers.items():
+        
