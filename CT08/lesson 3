@@ -75,4 +75,6 @@ while True:
     if choice == 1:
         take_attendance()
     elif choice == 2:
-        
+        attendance_percentage()
+    elif choice == 3:
+        notify
