@@ -5,3 +5,7 @@ student_answers = {
     "alice": ["a", "c", "c", "d"],
     "bob": ["a", "b", "b", "d"]
 }
+
+def grade_all_students(student_answers: dict, answer_key: list) -> dict:
+    for answer in student_answers:
+        answers = student_answers
