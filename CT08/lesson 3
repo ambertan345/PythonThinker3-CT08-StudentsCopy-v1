@@ -81,7 +81,7 @@ while True:
         class_attendance = take_attendance(class_attendance)
     elif choice == 2:
         student_name = input("Enter students name (lowercase): ")
-        attendance_percentage()
+        attendance_pct = attendance_percentage(student_name)
     elif choice == 3:
         notify_low_attendance()
     elif choice == 4:
