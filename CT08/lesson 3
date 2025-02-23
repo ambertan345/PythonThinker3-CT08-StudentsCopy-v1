@@ -70,4 +70,5 @@ print(students_with_low_attendance)
 
 # 5 menu system
 while True:
-    print("")
+    print("All options")
+    
