@@ -78,7 +78,7 @@ while True:
 
     choice = int(input("what option do you want? (1-4)"))
     if choice == 1:
-        take_attendance()
+        class_attendance = take
     elif choice == 2:
         attendance_percentage()
     elif choice == 3:
