@@ -43,7 +43,7 @@ def attendance_percentage(student: str, students: dict) -> float:
     # 2. calcualte the percentage of true
     # 3. return the percentage of true
     if student in students:
-        attendance_list = students[student_name]
+        attendance_list = students[student]
         num = attendance_list.count(True)
         denom = len(attendance_list)
     else:
