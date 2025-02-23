@@ -79,11 +79,18 @@ while True:
     choice = int(input("what option do you want? (1-4)"))
     if choice == 1:
         class_attendance = take_attendance(class_attendance)
+
     elif choice == 2:
         student_name = input("Enter students name (lowercase): ")
         attendance_pct = attendance_percentage(student_name, class_attendance)
+        if attendance_pct is not None:
+            print("{}'s attendance percentage: {}%".format(student_name, attendance_pct))
+
     elif choice == 3:
-        notify_low_attendance()
+        threshold = float(input("Enter the attendance threshold (example 75): "))
+        low_attendance_students = notify_low_attendance(class_attendance, threshold)
+        print("Students with low attendance: ", low_attendance_students)
+
     elif choice == 4:
         print("exiting the program.")
         break
