@@ -42,17 +42,27 @@ def attendance_percentage(student: str, students: dict) -> float:
     # 1. lookup the student
     # 2. calcualte the percentage of true
     # 3. return the percentage of true
-    for student, attendance in students.items():
-        total_days = len(attendance)
-        present_days = sum(attendance)
-        percentage = (present_days / total_days) * 100
-        attendance_percentage[student] = percentage
-
+    if student_name in students:
+        attendance_list = students[student_name]
+        num = attendance_list.count(True)
+        denom = len(attendance_list)
+    else:
+        print("UR NOT MY STUDENT")
     return 0.0
 
 # test
 value = attendance_percentage("alice", students)
 print(value)
 
-# t
+# notify low attendance
+def notify_low_attendance(students: dict, threshold: float) -> list:
+    list_warning = []
+    for student_name in students.keys():
+        att_pct = attendance_percentage(student_name, students)
+        if att_pct < threshold:
+            print(f"Warning : {student_name}'s attendance is {att_pct}%")
+            list_warning.append(student_name)
+        return list_warning
 
+students_with_low_attendance = notify_low_attendance(students, 50)
+print(students_with_low_attendance)
