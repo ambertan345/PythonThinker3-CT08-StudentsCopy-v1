@@ -77,4 +77,6 @@ while True:
     elif choice == 2:
         attendance_percentage()
     elif choice == 3:
-        notify
+        notify_low_attendance()
+    elif choice == 4:
+        print
