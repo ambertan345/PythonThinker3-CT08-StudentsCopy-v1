@@ -2,5 +2,5 @@ answer_key = ["a", "b", "b", "d"]
 student_answers = {
     "john": ["a", "c", "b", "d"],
     "jane": ["a", "b", "b", "d"],
-    "alice": [""]
+    "alice": ["a", "c", "c"]
 }
