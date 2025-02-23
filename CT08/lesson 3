@@ -38,11 +38,11 @@ updated_students = take_attendance(students)
 print(updated_students)
 
 # calcualte attendance percentage
-def attendance_percentage(student_name: str, students: dict) -> float:
+def attendance_percentage(student: str, students: dict) -> float:
     # 1. lookup the student
     # 2. calcualte the percentage of true
     # 3. return the percentage of true
-    if student_name in students:
+    if student in students:
         attendance_list = students[student_name]
         num = attendance_list.count(True)
         denom = len(attendance_list)
