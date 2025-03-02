@@ -17,3 +17,4 @@ def grade_all_students(student_answers: dict, answer_key: list) -> dict:
 
         quiz_scores[student] = score 
 
+display_results()
