@@ -19,3 +19,6 @@ def grade_all_students(student_answers: dict, answer_key: list) -> dict:
 
 def display_results(quiz_scores: dict) -> None:
     if not quiz_scores:
+        print("No results to diplay")
+        return
+    
