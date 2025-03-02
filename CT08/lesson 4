@@ -31,3 +31,5 @@ def menu_system():
     print("Quiz Grading System Menu")
     print("1. Grade all students")
     print("2. Calculate class average")
+    print("3. Find highest scorer")
+    
