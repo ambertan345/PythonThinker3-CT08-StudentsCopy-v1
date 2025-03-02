@@ -30,4 +30,4 @@ def display_results(quiz_scores: dict) -> None:
 def menu_system():
     print("Quiz Grading System Menu")
     print("1. Grade all students")
-    print("2. ")
+    print("2. Calculate class average")
