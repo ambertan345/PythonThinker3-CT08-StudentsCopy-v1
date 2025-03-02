@@ -32,4 +32,4 @@ def menu_system():
     print("1. Grade all students")
     print("2. Calculate class average")
     print("3. Find highest scorer")
-    
+    print("4. Display all results")
