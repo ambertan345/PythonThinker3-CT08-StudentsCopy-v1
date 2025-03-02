@@ -33,3 +33,6 @@ def menu_system():
     print("2. Calculate class average")
     print("3. Find highest scorer")
     print("4. Display all results")
+    print("5. Exit")
+
+    
