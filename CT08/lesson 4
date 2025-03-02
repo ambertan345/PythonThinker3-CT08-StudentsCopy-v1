@@ -22,3 +22,4 @@ def display_results(quiz_scores: dict) -> None:
         print("No results to diplay")
         return
     
+    print("\n")
