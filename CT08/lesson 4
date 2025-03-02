@@ -25,3 +25,7 @@ def display_results(quiz_scores: dict) -> None:
     print("\nClass Results:")
     for student, score in quiz_scores.items():
         print(f"{student} : {score} ")
+
+
+def menu_system():
+    print("Quiz")
