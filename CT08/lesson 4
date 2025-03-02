@@ -17,6 +17,5 @@ def grade_all_students(student_answers: dict, answer_key: list) -> dict:
 
         quiz_scores[student] = score 
 
-def display_results(quiz_scores: dict) :
-    while True:
-        print
+def display_results(quiz_scores: dict) -> None:
+    if not quiz_scores:
