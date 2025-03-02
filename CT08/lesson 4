@@ -35,4 +35,5 @@ def menu_system():
     print("4. Display all results")
     print("5. Exit")
 
-    choice = int(input("what "))
+    choice = int(input("what option do you want? (1-5) "))
+    
