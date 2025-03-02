@@ -22,4 +22,6 @@ def display_results(quiz_scores: dict) -> None:
         print("No results to diplay")
         return
     
-    print("\n")
+    print("\nClass Results:")
+    for student, score in quiz_scores.items():
+        print()
