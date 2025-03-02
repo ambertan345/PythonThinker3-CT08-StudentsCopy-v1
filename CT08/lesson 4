@@ -36,4 +36,5 @@ def menu_system():
     print("5. Exit")
 
     choice = int(input("what option do you want? (1-5) "))
-    
+    if choice == 1:
+        grade_all_students
