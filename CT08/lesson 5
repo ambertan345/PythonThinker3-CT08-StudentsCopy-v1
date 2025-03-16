@@ -27,3 +27,4 @@ import os
 
 FILENAME = "tasks.txt"
 FILEPATH = os.getcwd()
+FULLPATH = os.path.join
