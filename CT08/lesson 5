@@ -25,4 +25,5 @@ import os
 # print(f"Flie content:\n{content}")
 # file.close
 
-a
+FILENAME = "tasks.txt"
+FILEPATH = os.getcwd()
