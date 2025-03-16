@@ -17,6 +17,15 @@ def grade_all_students(student_answers: dict, answer_key: list) -> dict:
 
         quiz_scores[student] = score 
 
+def calculate_class_average_score(quiz_scores: dict) -> float:
+    total_score = 0
+    for student, score in quiz_scores.items():
+        total_score += score
+    average = total_score / len(quiz_scores)
+    return average
+
+
+
 def display_results(quiz_scores: dict) -> None:
     if not quiz_scores:
         print("No results to diplay")
@@ -26,6 +35,7 @@ def display_results(quiz_scores: dict) -> None:
     for student, score in quiz_scores.items():
         print(f"{student} : {score} ")
 
+quiz_scores = {}
 
 def menu_system():
     print("Quiz Grading System Menu")
@@ -37,4 +47,8 @@ def menu_system():
 
     choice = int(input("what option do you want? (1-5) "))
     if choice == 1:
-        grade_all_students
+        quiz_score = grade_all_students(student_answers: dict, answer_key: list)
+        print("All students have been graded")
+    
+    elif choice == 2:
+        average_
