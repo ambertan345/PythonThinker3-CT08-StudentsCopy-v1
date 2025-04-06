@@ -30,4 +30,5 @@ def generate_password(length: int=12):
     # username = input("What do you want your username to be?")
     # password = 
     if length < 12:
-        print("Password length")
+        print("Password length must be at least 12 characters.")
+        
