@@ -5,4 +5,8 @@ import string
 
 def clean(content: str) -> str:
     print("\nCleaning the passage (removing punctuation)...")
-    
+
+    punctuation = string.punctuation
+
+    char = "a"
+    char in punctuation
