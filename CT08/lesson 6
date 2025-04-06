@@ -9,4 +9,4 @@ def clean(content: str) -> str:
     punctuation = string.punctuation
 
     char = "a"
-    char in punctuation
+    char in punctuation 
