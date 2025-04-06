@@ -17,3 +17,7 @@ def clean(content: str) -> str:
     return content.lower
 cleaned_content = clean(content)
 print("\nCleaned Content:")
+print(cleaned_content)
+
+def decode(content: str) -> str:
+    print()
