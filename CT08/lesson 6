@@ -20,4 +20,4 @@ print("\nCleaned Content:")
 print(cleaned_content)
 
 def decode(content: str) -> str:
-    print()
+    print("\n Decoding")
