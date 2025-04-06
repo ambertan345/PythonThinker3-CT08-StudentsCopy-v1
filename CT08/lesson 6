@@ -1,3 +1,4 @@
+
 print("\nOriginal Encrpyted Note: ")
 print(content)
 
