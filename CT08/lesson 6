@@ -16,4 +16,4 @@ def clean(content: str) -> str:
         content.replace(char, "")
     return content.lower
 cleaned_content = clean(content)
-print("\n")
+print("\nCleaned Content:")
