@@ -26,5 +26,8 @@
 
 #     decoded_message = " "
 
-def create_new_password():
-    username =input("What")
+def generate_password(length: int=12):
+    # username = input("What do you want your username to be?")
+    # password = 
+    if length < 12:
+        print()
