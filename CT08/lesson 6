@@ -1,2 +1,7 @@
 print("\nOriginal Encrpyted Note: ")
 print(content)
+
+import string
+
+def clean(content: str) -> str:
+    print("\n")
