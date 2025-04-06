@@ -23,3 +23,6 @@ def decode(content: str) -> str:
     print("\n Decoding")
 
     words = cleaned_content.split()
+
+    decoded_message = " "
+    
