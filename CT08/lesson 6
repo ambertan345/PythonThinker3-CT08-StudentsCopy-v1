@@ -13,4 +13,4 @@ def clean(content: str) -> str:
     char in punctuation 
 
     for char in punctuation:
-        content.replace(char)
+        content.replace(char, "")
