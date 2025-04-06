@@ -1,28 +1,30 @@
 
-print("\nOriginal Encrpyted Note: ")
-print(content)
+# print("\nOriginal Encrpyted Note: ")
+# print(content)
 
-import string
+# import string
 
-def clean(content: str) -> str:
-    print("\nCleaning the passage (removing punctuation)...")
+# def clean(content: str) -> str:
+#     print("\nCleaning the passage (removing punctuation)...")
 
-    punctuation = string.punctuation
+#     punctuation = string.punctuation
 
-    # char = "a"
-    # char in punctuation 
+#     # char = "a"
+#     # char in punctuation 
 
-    for char in punctuation:
-        content.replace(char, "")
-    return content.lower
-cleaned_content = clean(content)
-print("\nCleaned Content:")
-print(cleaned_content)
+#     for char in punctuation:
+#         content.replace(char, "")
+#     return content.lower
+# cleaned_content = clean(content)
+# print("\nCleaned Content:")
+# print(cleaned_content)
 
-def decode(content: str) -> str:
-    print("\n Decoding")
+# def decode(content: str) -> str:
+#     print("\n Decoding")
 
-    words = cleaned_content.split()
+#     words = cleaned_content.split()
 
-    decoded_message = " "
-    
+#     decoded_message = " "
+
+def create_new_password():
+    input("What")
