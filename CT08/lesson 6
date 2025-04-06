@@ -1,1 +1,2 @@
-print("\nOriginal Encrpyted )
+print("\nOriginal Encrpyted Note: ")
+print(content)
