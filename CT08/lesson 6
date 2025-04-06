@@ -4,4 +4,4 @@ print(content)
 import string
 
 def clean(content: str) -> str:
-    print("\n")
+    print("\nCleaning the passage (removing punctuation)")
