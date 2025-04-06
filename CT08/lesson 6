@@ -27,4 +27,4 @@
 #     decoded_message = " "
 
 def create_new_password():
-    input("What")
+    username =input("What")
