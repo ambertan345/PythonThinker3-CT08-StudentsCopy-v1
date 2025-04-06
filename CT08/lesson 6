@@ -8,10 +8,11 @@ def clean(content: str) -> str:
     print("\nCleaning the passage (removing punctuation)...")
 
     punctuation = string.punctuation
-    
+
     # char = "a"
     # char in punctuation 
 
     for char in punctuation:
         content.replace(char, "")
     return content.lower
+cleaned_content = clean(content)
