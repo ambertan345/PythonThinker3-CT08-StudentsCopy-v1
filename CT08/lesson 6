@@ -58,10 +58,13 @@ def login(user_db: dict) -> bool:
         return False
     
     password = input(" what is ur password").strip()
-    
+
     if user_db[username] == password:
         print(f"Login is successful. welcome {username}")
         return True
     else:
         print("error: wrong password")
         return False
+
+def view_user_data(user_db: dict) -> None:
+    u
