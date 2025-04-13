@@ -36,4 +36,4 @@ def generate_password(length: int=12):
     password = ""
 
 def update_password(user_db: dict) -> dict:
-    username = input()
+    username = input("ENter your username: ").strip()
