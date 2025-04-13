@@ -81,4 +81,5 @@ while True:
     print("1. create a new user")
     print("2, update password")
     print("3.login")
-    
+    print("4. view stored usernames and passwords")
+    print("5. exit")
