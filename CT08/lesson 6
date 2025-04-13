@@ -76,4 +76,5 @@ def view_user_data(user_db: dict) -> None:
         print(f"{username}: {"*" * len(password)}")
 
 user_db = {}
-while 
+while True:
+    print("\n Username and Password Managaer")
