@@ -74,3 +74,5 @@ def view_user_data(user_db: dict) -> None:
     print("\nUsernames and Passwords: ")
     for username, password in user_db.items():
         print(f"{username}: {"*" * len(password)}")
+
+user_db 
