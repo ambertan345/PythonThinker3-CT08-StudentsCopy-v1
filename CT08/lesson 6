@@ -71,4 +71,4 @@ def view_user_data(user_db: dict) -> None:
     if not user_db:
         print("no user data available")
         return
-    print
+    print("\nUsernames")
