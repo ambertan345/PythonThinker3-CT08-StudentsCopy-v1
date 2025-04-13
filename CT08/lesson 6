@@ -78,4 +78,5 @@ def view_user_data(user_db: dict) -> None:
 user_db = {}
 while True:
     print("\n Username and Password Managaer")
-    print("1")
+    print("1. create a new user")
+    pritn("2, update password")
