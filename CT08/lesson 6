@@ -46,4 +46,4 @@ def update_password(user_db: dict) -> dict:
         return
     new_password = generate_password()
     user_db[username] = new_password
-    print()
+    print("passworx")
