@@ -57,4 +57,6 @@ def login(user_db: dict) -> bool:
         print("please try again")
         return Flase
 
-
+password = input(" what is ur password").strip()
+if user_db[username] == password:
+    print(f"")
