@@ -42,4 +42,6 @@ def update_password(user_db: dict) -> dict:
         return
     current_password = input("Enter ur current password: ").strip()
     if user_db[username] != current_password:
-        
+        print("uh oh. incorret password")
+        return
+    
