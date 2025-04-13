@@ -40,4 +40,4 @@ def update_password(user_db: dict) -> dict:
     if username not in user_db:
         print("USERNAME NOT FOUND")
         return
-    current_password = input
+    current_password = input("Enter ur current password: ")
