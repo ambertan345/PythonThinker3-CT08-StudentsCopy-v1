@@ -34,4 +34,6 @@ def generate_password(length: int=12):
         return None
     
     password = ""
-    
+
+def update_password(user_db: dict) -> dict:
+    username = input()
