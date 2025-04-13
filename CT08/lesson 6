@@ -78,3 +78,4 @@ def view_user_data(user_db: dict) -> None:
 user_db = {}
 while True:
     print("\n Username and Password Managaer")
+    print("1")
