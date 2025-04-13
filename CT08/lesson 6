@@ -54,4 +54,6 @@ def login(user_db: dict) -> bool:
     usernama = input("What is ur username. ").strip().lower()
     if username not in user_db:
         print("username not found")
-        print("please")
+        print("please try again")
+        return Flase
+    
