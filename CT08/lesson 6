@@ -71,4 +71,6 @@ def view_user_data(user_db: dict) -> None:
     if not user_db:
         print("no user data available")
         return
-    print("\nUsernames")
+    print("\nUsernames and Passwords: ")
+    for username, password in user_db.items():
+        print(f"")
