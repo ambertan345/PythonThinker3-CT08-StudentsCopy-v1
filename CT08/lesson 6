@@ -68,4 +68,5 @@ def login(user_db: dict) -> bool:
 
 def view_user_data(user_db: dict) -> None:
     username = input("What is the username: ")
-    
+    if not user_db:
+        print()
