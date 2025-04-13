@@ -48,4 +48,7 @@ def update_password(user_db: dict) -> dict:
     user_db[username] = new_password
     print(f"password successfully updated for {username}. ")
     print(f"your new password is {new_password} ")
-    
+    return user_db
+
+def login(user_db: dict) -> bool:
+     
