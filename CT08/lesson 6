@@ -67,4 +67,5 @@ def login(user_db: dict) -> bool:
         return False
 
 def view_user_data(user_db: dict) -> None:
-    u
+    username = input("What is the username: ")
+    
