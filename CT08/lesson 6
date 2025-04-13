@@ -47,4 +47,4 @@ def update_password(user_db: dict) -> dict:
     new_password = generate_password()
     user_db[username] = new_password
     print("password successfully updated for {}. ".format(username))
-    print("")
+    print("your new password is {} ")
