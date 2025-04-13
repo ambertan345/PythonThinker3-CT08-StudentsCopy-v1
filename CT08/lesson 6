@@ -79,4 +79,5 @@ user_db = {}
 while True:
     print("\n Username and Password Managaer")
     print("1. create a new user")
-    pritn("2, update password")
+    print("2, update password")
+    print("3.")
