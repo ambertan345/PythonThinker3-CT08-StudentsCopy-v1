@@ -51,12 +51,15 @@ def update_password(user_db: dict) -> dict:
     return user_db
 
 def login(user_db: dict) -> bool:
-    usernama = input("What is ur username. ").strip().lower()
+    username = input("What is ur username. ").strip().lower()
     if username not in user_db:
         print("username not found")
         print("please try again")
-        return Flase
-
-password = input(" what is ur password").strip()
-if user_db[username] == password:
-    print(f"Login is successfu")
+        return False
+    password = input(" what is ur password").strip()
+    if user_db[username] == password:
+        print(f"Login is successful. welcome {username}")
+        return True
+    else:
+        print("error: wrong password")
+        return False
