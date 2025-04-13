@@ -37,4 +37,5 @@ def generate_password(length: int=12):
 
 def update_password(user_db: dict) -> dict:
     username = input("ENter your username: ").strip().lower()
-    if username not in user_db
+    if username not in user_db:
+        print("USERNAME NOT FOUND")\return
