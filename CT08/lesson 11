@@ -11,8 +11,8 @@ def caesar_shfit_character(char, key, mode):
 if ascii_start <= ord(char) <= ascii_end:
     char_code = ord(char)
     
-
-    shifted_code = char_code - ascii_start + key
+    if mode == "encrypt":
+        shifted_code = char_code - ascii_start + key
 
     wrapped_code = shifted_code & range_size
 
