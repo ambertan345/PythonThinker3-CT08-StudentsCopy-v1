@@ -4,7 +4,7 @@ def caesar_shfit_character(char, key, mode):
 
     ascii_start = 32
     ascii_end = 176
-    range_size = ascii
+    range_size = ascii_end - ascii_start + 1
 
 
 range_size = ascii_end - ascii_start + 1
