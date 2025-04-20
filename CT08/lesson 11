@@ -16,7 +16,8 @@ if ascii_start <= ord(char) <= ascii_end:
     elif mode == "decrypt":
         shifted_code = char_code - ascii_start - key
     else:
-        
+        raise ValueError ("Invalid mode")
+    
 
 
 char = chr(final_code)
