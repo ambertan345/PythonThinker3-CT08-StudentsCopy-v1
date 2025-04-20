@@ -4,4 +4,6 @@ char_code = 3
 ascii_start = 32
 ascii_end = 176
 
-range_size = ascii_end
+range_size = ascii_end - ascii_start +1
+
+if ascii
