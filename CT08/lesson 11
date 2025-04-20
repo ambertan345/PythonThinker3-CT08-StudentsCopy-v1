@@ -58,7 +58,7 @@ def brute_force_decrypt(filename):
         encrypted_content = infile.readlines()
     print("\nBrute Force Results")
     for key in range(range_size):
-        
+        print(f"\nKey")
 
 
 print(caesar_shift_sentence("hello world", 5, "encrypt"))
