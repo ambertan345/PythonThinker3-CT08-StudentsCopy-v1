@@ -33,6 +33,6 @@ def caesar_shift_sentence(sentence, key, mode):
 
     return shifted_sentence
 
-print("")
+print(caesar_shift_sentence(""))
 
     
