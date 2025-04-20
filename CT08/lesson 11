@@ -36,7 +36,8 @@ def caesar_shift_sentence(sentence, key, mode):
 def caesar_shirt_list(sentences, key, mode):
 
     shifted_list = []
-    
+    for sentence in sentences:
+        
 
 print(caesar_shift_sentence("hello world", 5, "encrypt"))
 print(caesar_shift_sentence("mjqqt%|twqi", 5, "decrypt"))
