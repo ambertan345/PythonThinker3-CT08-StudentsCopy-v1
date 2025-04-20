@@ -8,7 +8,8 @@ range_size = ascii_end - ascii_start +1
 
 if ascii_start <= ord(char) <= ascii_end:
     char_code = ord(char)
-    
+
+    shifted_code 
 
 
 char = chr(char_code)
