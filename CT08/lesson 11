@@ -18,7 +18,8 @@ if ascii_start <= ord(char) <= ascii_end:
     else:
         raise ValueError ("Invalid mode")
     
-wrapped_code = shifted_code 
+wrapped_code = shifted_code % range_size
+
 
 
 char = chr(final_code)
