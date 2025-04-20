@@ -54,7 +54,8 @@ def brute_force_decrypt(filename):
     ascii_start = 32
     ascii_end = 126
     range_size = ascii_end - ascii_start + 1
-    with open(filename, "r")
+    with open(filename, "r") as infile:
+        encrypted
 
 
 print(caesar_shift_sentence("hello world", 5, "encrypt"))
