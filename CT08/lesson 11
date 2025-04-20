@@ -29,6 +29,8 @@ def caesar_shift_sentence(sentence, key, mode):
 
     shifted_sentence = ""
     for char in sentence:
-        shifted_sentence += caesar_shift_character
+        shifted_sentence += caesar_shift_character(char, key, mode)
+
+    return 
 
     
