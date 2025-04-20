@@ -20,9 +20,10 @@ def caesar_shfit_character(char, key, mode):
         
         wrapped_code = shifted_code % range_size
         final_code = wrapped_code + ascii_start
+        return chr(final_code)
         
     else:
-        return chr(final_code)
+        return 
 
 
     char = chr(final_code)
