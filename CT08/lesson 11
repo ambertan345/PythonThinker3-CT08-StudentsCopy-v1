@@ -43,8 +43,11 @@ def caesar_shirt_list(sentences, key, mode):
     return shifted_list
 
 def caesar_shift_file(input, filename, output_filename, key, mode):
-    print(Input_filename)
-    
+    print(input_filename)
+    with open(output_filename, "r") as infile:
+        with open(output_filename, "w") as outfile:
+            for line in 
+
 
 print(caesar_shift_sentence("hello world", 5, "encrypt"))
 print(caesar_shift_sentence("mjqqt%|twqi", 5, "decrypt"))
