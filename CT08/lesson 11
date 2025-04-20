@@ -12,6 +12,8 @@ if ascii_start <= ord(char) <= ascii_end:
 
     shifted_code = char_code - ascii_start + key
 
+    wrapped_code = shifted_code
+
 
 char = chr(char_code)
 
