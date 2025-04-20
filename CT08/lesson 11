@@ -50,6 +50,9 @@ def caesar_shift_file(input, filename, output_filename, key, mode):
                 shifted_line = caesar_shift_sentence(line, key, mode)
                 outfile.write(shifted_line)
 
+def brute_force_decrypt(filename):
+    
+
 
 print(caesar_shift_sentence("hello world", 5, "encrypt"))
 print(caesar_shift_sentence("mjqqt%|twqi", 5, "decrypt"))
