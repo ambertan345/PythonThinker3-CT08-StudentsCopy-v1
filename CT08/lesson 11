@@ -6,4 +6,5 @@ ascii_end = 176
 
 range_size = ascii_end - ascii_start +1
 
-if ascii_start <= ord(char)
+if ascii_start <= ord(char) <= ascii_end:
+    char
