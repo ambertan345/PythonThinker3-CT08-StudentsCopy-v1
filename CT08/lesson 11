@@ -34,6 +34,6 @@ def caesar_shift_sentence(sentence, key, mode):
     return shifted_sentence
 
 print(caesar_shift_sentence("hello world", 5, "encrypt"))
-print(caesar_shift_sentence("hello world", 5, "encrypt"))
+print(caesar_shift_sentence("mjqqt", 5, "encrypt"))
 
     
