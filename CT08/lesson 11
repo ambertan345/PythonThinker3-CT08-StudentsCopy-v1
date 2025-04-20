@@ -20,6 +20,7 @@ if ascii_start <= ord(char) <= ascii_end:
     
 wrapped_code = shifted_code % range_size
 
+final_code = wrapped_code + ascii_start
 
 
 char = chr(final_code)
