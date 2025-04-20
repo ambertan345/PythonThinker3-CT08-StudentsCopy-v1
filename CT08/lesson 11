@@ -1,18 +1,17 @@
-char = "a"
-key = 5
 
-def caesar_shift_character(char, key, mode):
+
+def caesar_shfit_character(char, key, mode):
 
     ascii_start = 32
     ascii_end = 176
-
+    range_size = ascii
 
 
 range_size = ascii_end - ascii_start + 1
 
 if ascii_start <= ord(char) <= ascii_end:
     char_code = ord(char)
-    print(char_code)
+    
 
     shifted_code = char_code - ascii_start + key
 
@@ -24,3 +23,5 @@ if ascii_start <= ord(char) <= ascii_end:
 char = chr(final_code)
 
 print(char)
+
+print:()
