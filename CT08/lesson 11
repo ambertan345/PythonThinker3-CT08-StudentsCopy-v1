@@ -53,7 +53,7 @@ def caesar_shift_file(input, filename, output_filename, key, mode):
 def brute_force_decrypt(filename):
     ascii_start = 32
     ascii_end = 126
-    range_size = ascii
+    range_size = ascii_end - ascii_start + 1
 
 
 print(caesar_shift_sentence("hello world", 5, "encrypt"))
