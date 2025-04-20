@@ -31,6 +31,6 @@ def caesar_shift_sentence(sentence, key, mode):
     for char in sentence:
         shifted_sentence += caesar_shift_character(char, key, mode)
 
-    return 
+    return shifted_sentence
 
     
