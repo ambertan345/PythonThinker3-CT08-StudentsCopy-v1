@@ -1,6 +1,6 @@
 
 
-def caesar_shfit_character(char, key, mode):
+def caesar_shift_character(char, key, mode):
 
     ascii_start = 32
     ascii_end = 126
@@ -23,11 +23,9 @@ def caesar_shfit_character(char, key, mode):
         return chr(final_code)
         
     else:
-        return 
+        return char
 
+def caesar_shift_sentence(sentence, key, mode):
+    
 
-    char = chr(final_code)
-
-    print(char)
-
-    print:()
+    
