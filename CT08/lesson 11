@@ -7,7 +7,6 @@ def caesar_shfit_character(char, key, mode):
     range_size = ascii_end - ascii_start + 1
 
 
-range_size = ascii_end - ascii_start + 1
 
 if ascii_start <= ord(char) <= ascii_end:
     char_code = ord(char)
