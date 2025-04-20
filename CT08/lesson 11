@@ -1,4 +1,5 @@
 char = "a"
 char_code = 3
 
-a
+ascii_start = 32
+ascii_end = 176
