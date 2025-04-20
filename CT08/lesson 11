@@ -17,6 +17,6 @@ if ascii_start <= ord(char) <= ascii_end:
     final_code = wrapped_code + ascii_start
 
 
-char = chr(char_code)
+char = chr(final_code)
 
 print(char)
