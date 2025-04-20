@@ -60,7 +60,7 @@ def brute_force_decrypt(filename):
     for key in range(range_size):
         print(f"\nKey:"+key)
         for line in encrypted_content:
-            decrypted_line = caser_shift_sentence()
+            decrypted_line = caeser_shift_sentence(line.strip())
 
 
 print(caesar_shift_sentence("hello world", 5, "encrypt"))
