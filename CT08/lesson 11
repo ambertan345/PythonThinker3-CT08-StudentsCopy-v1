@@ -64,6 +64,9 @@ def brute_force_decrypt(filename):
             print(f"\nKey "+key)
 
 
+def menu_system():
+    
+
 print(caesar_shift_sentence("hello world", 5, "encrypt"))
 print(caesar_shift_sentence("mjqqt%|twqi", 5, "decrypt"))
 
