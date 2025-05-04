@@ -51,6 +51,6 @@ choice = input("What do you want to buy?").strip().lower()
 menu_lookup = {food.lower(): food for food in menu}
 if choice in menu_lookup:
     print(f"{choice} costs ${menu[choice]}")
-    
+    menu_choice = menu_lookup
 else:
     print("Sorry, we dont sell that.")
