@@ -46,7 +46,7 @@ for food in menu:
 
 # 2.
 choice = input("What do you want to buy?")
-choice =choice.isLower()
+choice =choice.islower()
 # 3.
 if choice in menu:
     print(f"{choice} costs ${menu[choice]}")
