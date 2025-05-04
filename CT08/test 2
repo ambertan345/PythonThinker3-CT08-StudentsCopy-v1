@@ -65,4 +65,4 @@ for customer, amount in vip.items():
 
 for customer, amount in non_vip.items():
     amount_needed = 1000 - amount
-    print(f"Hi {customer}, spend ${}")
+    print(f"Hi {customer}, spend ${amount_needed}")
