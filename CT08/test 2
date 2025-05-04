@@ -39,8 +39,8 @@ non_vip = {}
 for customer, spent in customer_spending.items():
     if spent > 1000:
         vip[customer] = amount
-        print("Hi, you are now a vip member!")
-    
+    else:
+        
     
 
 
