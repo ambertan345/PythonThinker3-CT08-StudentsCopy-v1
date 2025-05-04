@@ -40,7 +40,7 @@ menu = {
 
 # Write your code here, add more space as required
 print("Menu:")
-for food in menu():
+for food in menu:
     print(food)
 
 
