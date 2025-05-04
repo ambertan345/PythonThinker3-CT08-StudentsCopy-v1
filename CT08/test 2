@@ -50,7 +50,8 @@ for customer, amount in customer_spending.items():
 # Write your code here, add more space as required
 
 for customer, amount in vip.items():
-    print(f"Hi {customer}, You are now a vip")
+    print(f"Hi {customer}, You are now a vip! Congratulations!")
+    
 
 
 
