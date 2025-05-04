@@ -40,6 +40,7 @@ menu = {
 
 # Write your code here, add more space as required
 
-
+for food, price in menu.values():
+    print()
 
 
