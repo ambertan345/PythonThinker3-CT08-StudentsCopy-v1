@@ -39,10 +39,8 @@ menu = {
 # Part 3: CHECK IF ITEM EXISTS AND PRINT THE PRICE
 
 # Write your code here, add more space as required
-
-for food, price in menu.values():
-    print(f"menu:")
-    print(f"")
-
+print("Menu:")
+for food in menu():
+    print(food)
 
 
