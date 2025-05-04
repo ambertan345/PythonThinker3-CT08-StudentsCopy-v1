@@ -44,4 +44,4 @@ for food in menu:
     print(food)
 
 # 2.
-
+input()
