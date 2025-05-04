@@ -38,6 +38,7 @@ menu = {
 # Part 3: CHECK IF ITEM EXISTS AND PRINT THE PRICE
 
 # Write your code here, add more space as required
+
 # 1.
 print("Menu:")
 for food in menu:
@@ -45,6 +46,7 @@ for food in menu:
 
 # 2.
 choice = input("What do you want to buy?")
+# 3.
 if choice in menu:
     print(f"{choice} costs ${menu[choice]}")
 else:
