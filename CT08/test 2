@@ -50,7 +50,7 @@ for customer, spent in customer_spending.items():
 # Write your code here, add more space as required
 
 for customer, amount in vip.items():
-    if
+    print("Hi ")
 
 
 
