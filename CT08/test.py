@@ -45,7 +45,7 @@ for food in menu:
     print(food)
 
 # 2.
-choice = input("What do you want to buy?")
+choice = input("What do you want to buy?").strip().lower()
 
 # 3.
 menu_lookup = {food.lower(): food for food in menu}
