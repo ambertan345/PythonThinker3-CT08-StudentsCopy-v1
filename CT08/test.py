@@ -45,3 +45,5 @@ for food in menu:
 
 # 2.
 choice = input("What do you want to buy?")
+if choice not in menu:
+    print("")
