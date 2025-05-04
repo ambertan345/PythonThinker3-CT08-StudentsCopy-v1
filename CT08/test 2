@@ -35,7 +35,8 @@ customer_spending = {
 
 # Write your code here, add more space as required
 
-for customer, spent in customer_spending:
+for customer,spen in customer_spending:
+
 
 
 
