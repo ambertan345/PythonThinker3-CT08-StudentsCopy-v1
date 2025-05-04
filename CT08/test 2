@@ -37,7 +37,7 @@ customer_spending = {
 vip = {}
 non_vip = {}
 for customer, amount in customer_spending.items():
-    if spent > 1000:
+    if amount > 1000:
         vip[customer] = amount
     else:
         non_vip[customer] = amount
