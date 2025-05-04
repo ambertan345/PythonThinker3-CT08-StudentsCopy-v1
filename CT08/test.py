@@ -42,6 +42,7 @@ menu = {
 
 for food, price in menu.values():
     print(f"menu:")
+    print(f"")
 
 
 
