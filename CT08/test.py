@@ -21,6 +21,7 @@
 ###########################################
 # Task: Complete the code below
 
+# 1.
 menu = {
     "Pizza": 8.5,
     "Burger": 5.0,
