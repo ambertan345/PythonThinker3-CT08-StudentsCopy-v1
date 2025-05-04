@@ -42,10 +42,6 @@ for customer, spent in customer_spending.items():
     else:
         non_vip[customer] = amount
     
-
-
-
-
 ###################################################
 # Part 2: 
 # Loop through the vip dictionary 
@@ -53,7 +49,7 @@ for customer, spent in customer_spending.items():
 
 # Write your code here, add more space as required
 
-
+for customer,
 
 
 
