@@ -36,7 +36,8 @@ customer_spending = {
 # Write your code here, add more space as required
 vip = {}
 non_vip = {}
-for customer, spent in customer_spending:
+for customer, spent in customer_spending.items():
+    
     
 
 
