@@ -46,6 +46,6 @@ for food in menu:
 # 2.
 choice = input("What do you want to buy?")
 if choice in menu:
-    print(f"{choice} costs $")
+    print(f"{choice} costs ${menu[choice]}")
 else:
     print("Sorry, we dont sell that.")
