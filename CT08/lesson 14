@@ -1,2 +1,2 @@
 class ZooAnimal:
-    
+    def __init__
