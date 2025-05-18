@@ -35,4 +35,5 @@ class Tamagotchi:
 pet = Tamagotchi("Roger")
 pet.status()
 pet.feed()
+pet.status()
         
