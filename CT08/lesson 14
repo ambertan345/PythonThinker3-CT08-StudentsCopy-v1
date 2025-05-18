@@ -47,7 +47,10 @@ class Tamagotchi:
         print(f"\n{self.name} is growing older...")
         self.age += 1
         self.hunger = self.hunger + 5
-        self.happiness = 
+        self.happiness = self.happiness - 5
+
+        if self.hunger >= 100:
+            print
 
 pet = Tamagotchi("Roger")
 pet.status()
