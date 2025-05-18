@@ -22,4 +22,4 @@ class Tamagotchi:
         self.age = 0
 
     def status(self):
-        print
+        print(f"")
