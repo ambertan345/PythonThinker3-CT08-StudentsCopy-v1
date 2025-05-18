@@ -50,7 +50,7 @@ class Tamagotchi:
         self.happiness = self.happiness - 5
 
         if self.hunger >= 100:
-            print
+            print(f"uh oh")
 
 pet = Tamagotchi("Roger")
 pet.status()
