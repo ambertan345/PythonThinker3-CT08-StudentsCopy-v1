@@ -32,5 +32,6 @@ class Tamagotchi:
     def feed(self):
         self.hunger = self.hunger - 1
 
-pet = Tamagotchi
+pet = Tamagotchi("Roger")
+pet
         
