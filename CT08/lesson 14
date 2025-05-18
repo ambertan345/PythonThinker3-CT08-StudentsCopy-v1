@@ -34,7 +34,7 @@ class Tamagotchi:
         self.happiness = min(self.happiness + 20, 100)
         self.energy = max(self.energy - 15, 0)
         self.hunger = min(self.hunger + 10, 100)
-        
+
     def feed(self):
         self.hunger = self.hunger - 1
 
@@ -42,6 +42,9 @@ class Tamagotchi:
         print(f"\n{self.name}")
         self.energy = min(self.energy + 30, 100)
         self.hunger = min(self.hunger + 20, 100)
+
+    def grow_older(self) -> str:
+        
 
 pet = Tamagotchi("Roger")
 pet.status()
