@@ -4,4 +4,4 @@ class ZooAnimal:
         self.species = species
     
     def describe(self):
-        print(f"animal: {self.name} | ")
+        print(f"animal: {self.name} | species: {self.species}")
