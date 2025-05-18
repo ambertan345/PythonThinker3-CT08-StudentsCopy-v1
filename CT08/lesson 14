@@ -29,6 +29,8 @@ class Tamagotchi:
         print(f"age: {self.age} days")
         print("-" * 30)
 
+    def play(self):
+        print(f"\n")
     def feed(self):
         self.hunger = self.hunger - 1
 
@@ -36,6 +38,7 @@ class Tamagotchi:
         print(f"\n{self.name}")
         self.energy = min(self.energy + 30, 100)
         self.hunger = min(self.hunger + 20, 100)
+
 pet = Tamagotchi("Roger")
 pet.status()
 pet.feed()
