@@ -28,4 +28,6 @@ class Tamagotchi:
         print(f"happiness: {self.happiness}/100")
         print(f"age: {self.age} days")
         print("-" * 30)
+
+    def feed(self)
         
