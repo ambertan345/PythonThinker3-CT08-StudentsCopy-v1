@@ -24,4 +24,5 @@ class Tamagotchi:
     def status(self):
         print(f"\n{self.name}'s status:")
         print(f"hunger: {self.hunger}/100")
+        print(f"energy: {self.energy}")
         
