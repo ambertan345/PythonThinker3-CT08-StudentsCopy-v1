@@ -18,5 +18,5 @@ class Tamagotchi:
         self.name = name
         self.hunger = 50
         self.energy = 80
-        self.happiness = 99
+        self.happiness = 75
         self.age = 0
