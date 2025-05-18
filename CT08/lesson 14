@@ -1,5 +1,5 @@
 class ZooAnimal:
-    def __init__(self, name, species):
+    def __init__(self, name, species, diet):
         self.name = name
         self.species = species
         self.diet = diet
