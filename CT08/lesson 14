@@ -32,7 +32,7 @@ class Tamagotchi:
     def play(self):
         print(f"\nYou played with {self.name}")
         self.happiness = min(self.happiness + 20, 100)
-        
+        self.energy = max()
     def feed(self):
         self.hunger = self.hunger - 1
 
