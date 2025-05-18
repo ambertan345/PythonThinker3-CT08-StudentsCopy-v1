@@ -3,3 +3,5 @@ class ZooAnimal:
         self.name = name
         self.species = species
     
+    def describe(self):
+        print(f"")
