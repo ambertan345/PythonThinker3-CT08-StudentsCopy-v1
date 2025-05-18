@@ -26,5 +26,6 @@ class Tamagotchi:
         print(f"hunger: {self.hunger}/100")
         print(f"energy: {self.energy}/100")
         print(f"happiness: {self.happiness}/100")
-        print(f"age: ")
+        print(f"age: {self.age} days")
+        print()
         
