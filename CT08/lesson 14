@@ -34,6 +34,7 @@ class Tamagotchi:
         self.happiness = min(self.happiness + 20, 100)
         self.energy = max(self.energy - 15, 0)
         self.hunger = min(self.hunger + 10, 100)
+        
     def feed(self):
         self.hunger = self.hunger - 1
 
