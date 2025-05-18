@@ -7,4 +7,4 @@ class ZooAnimal:
         print(f"animal: {self.name} | species: {self.species}")
 
 elephant = ZooAnimal("Ellie", "Elephant")
-elepant.descri
+elephant.describe()
