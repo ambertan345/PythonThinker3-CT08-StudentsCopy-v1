@@ -30,7 +30,8 @@ class Tamagotchi:
         print("-" * 30)
 
     def play(self):
-        print(f"\n")
+        print(f"\nYou played with {self.name}")
+        
     def feed(self):
         self.hunger = self.hunger - 1
 
