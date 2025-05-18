@@ -34,7 +34,7 @@ class Tamagotchi:
 
     def sleep(self):
         print(f"\n{self.name}")
-
+        self
 pet = Tamagotchi("Roger")
 pet.status()
 pet.feed()
