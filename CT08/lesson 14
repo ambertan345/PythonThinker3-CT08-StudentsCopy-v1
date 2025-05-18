@@ -51,6 +51,9 @@ class Tamagotchi:
 
         if self.hunger >= 100:
             print(f"uh oh. {self.name} starved. game over.")
+            return "lost"
+        if self.energy <= 0:
+            
 
 pet = Tamagotchi("Roger")
 pet.status()
