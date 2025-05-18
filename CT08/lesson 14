@@ -30,5 +30,7 @@ class Tamagotchi:
         print("-" * 30)
 
     def feed(self):
-        self.hunger = self
+        self.hunger = self.hunger - 1
+
+pet = Tamagotchi
         
