@@ -32,8 +32,12 @@ class Tamagotchi:
     def feed(self):
         self.hunger = self.hunger - 1
 
+    def sleep(self):
+        
+
 pet = Tamagotchi("Roger")
 pet.status()
 pet.feed()
 pet.status()
+
         
