@@ -33,5 +33,6 @@ class Tamagotchi:
         self.hunger = self.hunger - 1
 
 pet = Tamagotchi("Roger")
-pet
+pet.status()
+pet.feed()
         
