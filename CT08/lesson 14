@@ -17,5 +17,6 @@ class Tamagotchi:
     def __init__(self, name):
         self.name = name
         self.hunger = 50
-        self.energy
-        sel
+        self.energy = 80
+        self.happiness = 99
+        self.age = 0
