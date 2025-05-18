@@ -12,3 +12,7 @@ class ZooAnimal:
 
 elephant = ZooAnimal("Ellie", "Elephant")
 elephant.describe()
+
+class Tamagotchi:
+    def __init__(self, name):
+        self
