@@ -8,6 +8,6 @@ class ZooAnimal:
         print(f"animal: {self.name} | species: {self.species}")
 
     def hungry(self):
-        
+        print(f"{self.name}")
 elephant = ZooAnimal("Ellie", "Elephant")
 elephant.describe()
