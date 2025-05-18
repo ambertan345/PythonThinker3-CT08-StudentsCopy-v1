@@ -44,7 +44,7 @@ class Tamagotchi:
         self.hunger = min(self.hunger + 20, 100)
 
     def grow_older(self) -> str:
-        
+        print(f"\n")
 
 pet = Tamagotchi("Roger")
 pet.status()
